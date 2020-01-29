@@ -6,4 +6,4 @@ steps:
   entrypoint: "go"
   args: ["test", "-v", "./..."]
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["app", "deploy", "/helloworld/app.yaml"]
+  args: ["app", "deploy", "helloworld/app.yaml"]
